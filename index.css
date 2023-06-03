@@ -1,0 +1,247 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 1px solid red; */
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 3px;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: rgb(168, 168, 168);
+    transition: .5s;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    font-weight:600;
+}
+
+.navbar-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    font-size: 3ch;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    margin-right: 20%;
+}
+
+.header-img {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+}
+
+.features-page {
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 4ch;
+}
+
+.featshows {
+    position: absolute;
+    font-weight: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: -1px 1px 2px black,
+                  1px 1px 0 black,
+                  1px -1px 0 black,
+                  -1px -1px 0 black;
+                  
+}
+
+h2 {
+    font-weight: 400;
+    font-style: italic;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+.upcoming-shows {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 50px;
+    margin: 50px;
+}
+
+.shows-header {
+    background-color: lightgrey;
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    font-style: italic;
+    min-width: 600px;
+}
+
+.main-shows-tile {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    min-width: 600px;
+}
+
+.show {
+    font-weight: 100;
+    display: flex;
+    flex-direction: row;
+}
+
+.production-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 175px;
+    margin: 15px
+}
+
+.production-info {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    padding-right: 30px;
+}
+
+.readmore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   margin-left: auto;
+}
+
+.readmore a {
+    height: 40px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #daa120;
+    border: 0;
+    border-radius: 6%;
+    transition: .5s;
+}
+
+button:hover {
+    background-color: #b4861b;
+    transition: .5s;
+}
+
+hr {
+    color: black;
+    width: 100%;
+}
+
+
+.bottom {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.foothead {
+    font-weight: bold;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 50px;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.comingsoon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footsocial {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    color: white;
+    justify-content: space-evenly;
+}
+
